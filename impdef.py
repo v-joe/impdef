@@ -1,3 +1,7 @@
+#impdef .def file generator for .dll files
+#License: GPLv3
+#https://github.com/v-joe/impdef
+
 from os import environ,path,popen
 from sys import argv,exit,stderr
 
