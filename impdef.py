@@ -21,7 +21,7 @@ if len(argv)!=3:
     exit(1)
 
 #check that output file is .def to avoid accidentally overwriting .dll files
-if argv[1][-4:]!='.def':
+if argv[1][-4:].lower()!='.def':
     stderr.write('Error: first argument destination.def must have suffix .def\n')
     exit(2)
 
